@@ -15,8 +15,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+# MY AUTH VARIABLES
 LOGOUT_REDIRECT_URL = '/'
-# LOGIN_REDIRECT_URL = '/rooms/'
+LOGIN_REDIRECT_URL = '/rooms/'
 LOGIN_URL = '/login/'
 
 # Application definition
